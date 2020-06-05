@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title> Kali's Fabulous Website</title>
+        <style>
+    body {
+        background: rgb(100, 245, 209);
+        color: rgb(45, 35, 45);
+        padding: 10px;
+        font-family: arial;
+    }
+    header {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    #all-contents {
+        max-width: 800px;
+        margin: auto;
+    }
+
+    /* navigation menu */
+    nav {
+        background: rgb(100, 0, 150);
+        margin: 0 auto;
+        margin-bottom: 20px;
+        display: flex;
+        padding: 10px;
+    }
+    nav header {
+        display: flex;
+        align-items: center;
+        color: rgb(255, 100, 255);
+        flex: 1;
+    }
+    nav ul {
+        list-style-image: none;
+    }
+    nav li {
+        display: inline-block;
+        padding: 0 10px;
+    }
+    nav a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    /* main container area beneath menu */
+    main {
+        background: rgb(245, 238, 245);
+        display: flex;
+    }
+    .sidebar {
+        margin-right: 25px;
+        padding: 10px;
+    }
+    .sidebar img {
+        width: 200px;
+    }
+    .content {
+        flex: 1;
+        padding: 15px;
+    }
+    .interests header {
+        font-size: 1.25em;
+    }
+</style>
+    </head>
+
+    <body>
+       <div id="all contents">
+           <nav>
+               <ul>
+                   <li><a href="index.html">Home</a></li>
+                       <li><a href="portfolio.html">Portfolio</a></li>
+               </ul>
+               
+           </nav>
+           
+           <main>
+               <div class="sidebar">
+                   <img src="data:image/jpeg;base64,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">
+               </div>
+               
+               <div class="content">
+                   <header>Kali Murry </header>
+                   <p>Student at Slidell High</p>
+                   <section class="interests">
+                       <header>Interests</header>
+                       <ul>
+                           <li>Biking</li>
+                           <li>Watching Tv</li>
+                           <li>Sleeping</li>
+                       </ul>
+                   </section>
+               </div>
+           </main>
+       </div>
+    </body>
+</html>
